@@ -151,7 +151,8 @@ pub struct Hour {
     pub chance_of_snow: u32,
     pub gust_mph: f32,
     pub gust_kph: f32,
-    pub air_quality: Option<AirQuality>
+    pub air_quality: Option<AirQuality>,
+    pub uv: f32
 }
 
 impl Hour {
